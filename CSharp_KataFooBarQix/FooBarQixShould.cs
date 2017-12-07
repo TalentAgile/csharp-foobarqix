@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NFluent;
+﻿using NFluent;
 using NUnit.Framework;
 
 namespace CSharp_KataFooBarQix
 {
-    class FooBarQixShould
+    internal class FooBarQixShould
     {
         [Test]
         [Ignore("Remove to enable test")]
