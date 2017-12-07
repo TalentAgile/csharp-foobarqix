@@ -1,5 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace CSharp_KataFooBarQix
 {
@@ -25,9 +25,8 @@ namespace CSharp_KataFooBarQix
                 }
             }
 
-            foreach (var digitChar in number.ToString())
+            foreach (var digit in GetDigits(number))
             {
-                var digit = digitChar - '0';
                 if (MagicNumbers.ContainsKey(digit))
                 {
                     result += MagicNumbers[digit];
@@ -35,6 +34,11 @@ namespace CSharp_KataFooBarQix
             }
 
             return result ?? number.ToString();
+        }
+
+        private static IEnumerable<int> GetDigits(int number)
+        {
+            return number.ToString().Select(digitChar => digitChar - '0');
         }
 
         private static bool IsDivisibleBy(this int number, int divisor)
