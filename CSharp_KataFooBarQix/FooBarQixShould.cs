@@ -6,7 +6,6 @@ namespace CSharp_KataFooBarQix
     internal class FooBarQixShould
     {
         [Test]
-        [Ignore("Remove to enable test")]
         public void Return_number_as_string_when_number_is_regular()
         {
             var result = FooBarQix.Process(1);
@@ -14,7 +13,6 @@ namespace CSharp_KataFooBarQix
         }
 
         [Test]
-        [Ignore("Remove to enable test")]
         public void Return_Foo_when_number_is_divisible_by_3()
         {
             var result = FooBarQix.Process(6);
@@ -22,7 +20,6 @@ namespace CSharp_KataFooBarQix
         }
 
         [Test]
-        [Ignore("Remove to enable test")]
         public void Return_Bar_when_number_is_divisible_by_5()
         {
             var result = FooBarQix.Process(10);
@@ -30,7 +27,6 @@ namespace CSharp_KataFooBarQix
         }
 
         [Test]
-        [Ignore("Remove to enable test")]
         public void Return_Qix_when_number_is_divisible_by_7()
         {
             var result = FooBarQix.Process(14);
@@ -38,7 +34,6 @@ namespace CSharp_KataFooBarQix
         }
 
         [Test]
-        [Ignore("Remove to enable test")]
         public void Return_Foo_when_number_contains_a_3()
         {
             var result = FooBarQix.Process(31);
@@ -46,7 +41,6 @@ namespace CSharp_KataFooBarQix
         }
 
         [Test]
-        [Ignore("Remove to enable test")]
         public void Return_Bar_when_number_contains_a_5()
         {
             var result = FooBarQix.Process(52);
@@ -54,7 +48,6 @@ namespace CSharp_KataFooBarQix
         }
 
         [Test]
-        [Ignore("Remove to enable test")]
         public void Return_Qix_when_number_contains_a_7()
         {
             var result = FooBarQix.Process(17);
@@ -62,7 +55,6 @@ namespace CSharp_KataFooBarQix
         }
 
         [Test]
-        [Ignore("Remove to enable test")]
         public void Repeat_Foo_when_number_contains_multiple_3s()
         {
             var result = FooBarQix.Process(313);
@@ -70,7 +62,6 @@ namespace CSharp_KataFooBarQix
         }
 
         [Test]
-        [Ignore("Remove to enable test")]
         public void Repeat_Bar_when_number_contains_multiple_5s()
         {
             var result = FooBarQix.Process(551);
@@ -78,7 +69,6 @@ namespace CSharp_KataFooBarQix
         }
 
         [Test]
-        [Ignore("Remove to enable test")]
         public void Repeat_Bar_when_number_contains_multiple_7s()
         {
             var result = FooBarQix.Process(277);
@@ -86,7 +76,6 @@ namespace CSharp_KataFooBarQix
         }
 
         [Test]
-        [Ignore("Remove to enable test")]
         public void Write_divisors_before_digits()
         {
             var result = FooBarQix.Process(51);
@@ -94,7 +83,6 @@ namespace CSharp_KataFooBarQix
         }
 
         [Test]
-        [Ignore("Remove to enable test")]
         public void Write_digits_from_left_to_right()
         {
             var result = FooBarQix.Process(53);
@@ -102,7 +90,6 @@ namespace CSharp_KataFooBarQix
         }
 
         [Test]
-        [Ignore("Remove to enable test")]
         public void Write_divisors_in_ascending_order()
         {
             var result = FooBarQix.Process(210);
