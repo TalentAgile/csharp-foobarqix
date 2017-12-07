@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace CSharp_KataFooBarQix
 {
-    public class Class1
+    public class FooBarQix
     {
+        public static string Process(int number)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
